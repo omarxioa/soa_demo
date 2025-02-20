@@ -11,6 +11,12 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
+*.lock
+*.DS_Store
+*.class
+*.jar
+*.war
+*.iml
 
 # IntelliJ related
 *.iml
@@ -24,13 +30,17 @@ migrate_working_dir/
 #.vscode/
 
 # Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+generated_plugin_registrant.dart
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .pub-cache/
-.pub/
 /build/
 
 # Symbolication related
@@ -43,3 +53,17 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# IDEs and editors
+.idea/
+.vscode/
+
+
+# Flutter generated files
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Pods/
+android/.gradle/
+android/app/build/
